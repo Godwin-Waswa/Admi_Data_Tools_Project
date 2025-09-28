@@ -82,7 +82,7 @@ CREATE TABLE orders (
     total_price DECIMAL(10,2) NOT NULL
 );
 ```
-----
+---
 ### `Inserting Sample Data`
 
 #### customers table
