@@ -8,9 +8,9 @@ The name of the schema is **Online_Store**.
 
 The schema contains **3 main tables** with **sample data** and a **foreign key relationship**:  
 
-- **customers** → Stores customer information.  
-- **products** → Stores product details.  
-- **orders** → Tracks purchases (linked to customers & products).  
+- **customers** - Stores customer information.  
+- **products** - Stores product details.  
+- **orders** - Tracks purchases (linked to customers & products).  
 
 The **orders** table acts as a joining table linking the `customers` and `products` tables. It contains foreign keys referencing both.
 
@@ -27,13 +27,13 @@ The database provides a foundation for:
 - Recording customer orders and linking them to purchased products.  
 - Supporting business analytics such as total sales per product or per customer.  
 
-This project showcases practical database design principles — including **normalization**, **foreign key constraints**, and **referential integrity** — while preparing the groundwork for future expansion into a full-stack e-commerce application.
+This project showcases practical database design principles including **normalization**, **foreign key constraints**, and **referential integrity** while preparing the groundwork for future expansion into a full-stack e-commerce application.
 
 ---
 ## 🧩 Schema Overview
 
 The **Online_Store** schema is designed to represent the core structure of a basic e-commerce system.  
-It includes **three interrelated tables** — `customers`, `products`, and `orders` — each serving a distinct role in maintaining data consistency and enabling relational queries.
+It includes **three interrelated tables**; `customers`, `products`, and `orders`, each serving a distinct role in maintaining data consistency and enabling relational queries.
 
 ---
 
